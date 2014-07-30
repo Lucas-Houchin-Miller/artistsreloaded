@@ -1,0 +1,13 @@
+<h1>Artist #<%= @user.id %></h1>
+
+<div>
+  <strong>Artist</strong>:<br />
+  <p><%= @user.name %></p>
+</div>
+<div>
+  <strong>Image url</strong>:<br />
+  <p><%= @user.email %></p>
+</div>
+
+<a href="/users/<%= @user.id %>/edit">Edit</a> |
+<a href="/users/<%= @user.id %>/destroy">Destroy</a>
