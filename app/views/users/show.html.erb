@@ -1,5 +1,4 @@
 <h1>Artist #<%= @user.id %></h1>
-
 <div>
   <strong>Artist</strong>:<br />
   <p><%= @user.name %></p>
@@ -9,8 +8,8 @@
   <p><%= @user.email %></p>
 </div>
 <div>
-  <strong>Songs:</strong>:<br />
-  <p><%= @user.email %></p>
+  <strong>Songs</strong>:<br />
+  <p><%= @songs  %></p>
 </div>
 <a href="/users/<%= @user.id %>/edit">Edit</a> |
 <a href="/users/<%= @user.id %>/destroy">Destroy</a>

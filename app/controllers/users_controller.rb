@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @song = Song.find_by(id: params[:id])
+    @song = Song.find_by(artist_id: params[:id])
     @user = User.find_by(id: params[:id])
   end
 
